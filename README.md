@@ -34,37 +34,37 @@ Guarda tus imagenes en docs/images con estos nombres para mantener la galeria si
 - 05-anillo-critico-trayectoria-critica.png
 - 06-anillo-semi-critico-trayectoria-critica.png
 
-### 1) 01-anillo-critico-trayectoria-peligrosa
+### 1) Alerta critica con trayectoria peligrosa
 
 ![01-anillo-critico-trayectoria-peligrosa](docs/images/01-anillo-critico-trayectoria-peligrosa.png)
 
 Lectura: aeronave seleccionada con halo cian y anillo rojo dominante, indicando condicion de riesgo en el entorno inmediato mientras sigue una trayectoria proyectada la cual al encontrarse el color anaranjado indica una posible colision.
 
-### 2) 02-anillo-sin-amenaza-trayectoria-segura
+### 2) Trayectoria segura sin amenaza inmediata
 
 ![02-anillo-sin-amenaza-trayectoria-segura](docs/images/02-anillo-sin-amenaza-trayectoria-segura.png)
 
 Lectura: se observan ramificaciones punteadas en azul que representan alternativas de movimiento seguro en nodos cercanos de la red de rodaje.
 
-### 3) 03-anillo-critico.-trayectoria critica
+### 3) Escenario critico con trayectoria conflictiva
 
 ![03-anillo-critico.-trayectoria critica](docs/images/03-anillo-critico.-trayectoria%20critica.png)
 
 Lectura: trayectoria critica con anillo rojo consolidado y capas de soporte, priorizando la atencion del operador sobre posible conflicto.
 
-### 4) 04-anillo-estable
+### 4) Estado estable de separacion
 
 ![04-anillo-estable](docs/images/04-anillo-estable.png)
 
 Lectura: estado estable con predominio de anillos de menor severidad, apropiado para seguimiento normal de superficie.
 
-### 5) 05-anillo-critico-trayectoria-critica
+### 5) Criticidad alta con soporte de datos operativos
 
 ![05-anillo-critico-trayectoria-critica](docs/images/05-anillo-critico-trayectoria-critica.png)
 
 Lectura: combinacion de trayectoria critica y anillos de alta severidad, con panel de datos operativos para evaluar decision inmediata.
 
-### 6) 06-anillo-semi-critico-trayectoria-critica
+### 6) Contexto ampliado en condicion semi-critica
 
 ![06-anillo-semi-critico-trayectoria-critica](docs/images/06-anillo-semi-critico-trayectoria-critica.png)
 
