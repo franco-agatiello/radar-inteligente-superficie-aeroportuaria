@@ -44,7 +44,7 @@ Lectura: aeronave seleccionada con halo cian y anillo rojo dominante, indicando 
 
 ![Rama predictiva](docs/images/02-rama-predictiva-alerta.png)
 
-Lectura: se observan ramificaciones punteadas en naranja que representan alternativas de movimiento en nodos cercanos de la red de rodaje.
+Lectura: se observan ramificaciones punteadas en azul que representan alternativas de movimiento seguro en nodos cercanos de la red de rodaje.
 
 ### 3) Estado critico consolidado
 
