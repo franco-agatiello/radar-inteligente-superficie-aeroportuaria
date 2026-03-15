@@ -27,48 +27,48 @@ Las siguientes capturas muestran el comportamiento operativo del radar en escena
 
 Guarda tus imagenes en docs/images con estos nombres para mantener la galeria sincronizada:
 
-- 01-ruta-directa-alerta.png
-- 02-rama-predictiva-alerta.png
-- 03-anillo-critico.png
+- 01-anillo-critico-trayectoria-peligrosa.png
+- 02-anillo-sin-amenaza-trayectoria-segura.png
+- 03-anillo-critico.-trayectoria critica.png
 - 04-anillo-estable.png
-- 05-tooltip-operativo.png
-- 06-contexto-zoom-out.png
+- 05-anillo-critico-trayectoria-critica.png
+- 06-anillo-semi-critico-trayectoria-critica.png
 
-### 1) Ruta directa con alerta de proximidad
+### 1) 01-anillo-critico-trayectoria-peligrosa
 
-![Ruta directa con alerta](docs/images/01-ruta-directa-alerta.png)
+![01-anillo-critico-trayectoria-peligrosa](docs/images/01-anillo-critico-trayectoria-peligrosa.png)
 
 Lectura: aeronave seleccionada con halo cian y anillo rojo dominante, indicando condicion de riesgo en el entorno inmediato mientras sigue una trayectoria proyectada la cual al encontrarse el color anaranjado indica una posible colision.
 
-### 2) Prediccion de ramas de trayectoria
+### 2) 02-anillo-sin-amenaza-trayectoria-segura
 
-![Rama predictiva](docs/images/02-rama-predictiva-alerta.png)
+![02-anillo-sin-amenaza-trayectoria-segura](docs/images/02-anillo-sin-amenaza-trayectoria-segura.png)
 
 Lectura: se observan ramificaciones punteadas en azul que representan alternativas de movimiento seguro en nodos cercanos de la red de rodaje.
 
-### 3) Estado critico consolidado
+### 3) 03-anillo-critico.-trayectoria critica
 
-![Anillo critico](docs/images/03-anillo-critico.png)
+![03-anillo-critico.-trayectoria critica](docs/images/03-anillo-critico.-trayectoria%20critica.png)
 
-Lectura: anillo rojo amplio y persistente con capas externas de referencia, util para priorizacion visual de amenazas en tiempo real.
+Lectura: trayectoria critica con anillo rojo consolidado y capas de soporte, priorizando la atencion del operador sobre posible conflicto.
 
-### 4) Estado estable con margen de seguridad
+### 4) 04-anillo-estable
 
-![Anillo estable](docs/images/04-anillo-estable.png)
+![04-anillo-estable](docs/images/04-anillo-estable.png)
 
-Lectura: predominio de anillos cian y verde, con menor presencia de niveles de riesgo altos, asociado a una situacion de menor conflicto.
+Lectura: estado estable con predominio de anillos de menor severidad, apropiado para seguimiento normal de superficie.
 
-### 5) Tooltip operativo con contexto de sensor
+### 5) 05-anillo-critico-trayectoria-critica
 
-![Tooltip operativo](docs/images/05-tooltip-operativo.png)
+![05-anillo-critico-trayectoria-critica](docs/images/05-anillo-critico-trayectoria-critica.png)
 
-Lectura: panel emergente con callsign, heading, speed, comportamiento, y resumen de sensor (objeto mas cercano y bandas G/Y/R).
+Lectura: combinacion de trayectoria critica y anillos de alta severidad, con panel de datos operativos para evaluar decision inmediata.
 
-### 6) Vista de contexto (zoom out)
+### 6) 06-anillo-semi-critico-trayectoria-critica
 
-![Contexto zoom out](docs/images/06-contexto-zoom-out.png)
+![06-anillo-semi-critico-trayectoria-critica](docs/images/06-anillo-semi-critico-trayectoria-critica.png)
 
-Lectura: vista amplia para entender la posicion relativa de la aeronave respecto al entramado de calles y sectores del aeropuerto.
+Lectura: escenario semi-critico en contexto amplio, util para analizar trayectoria critica con mayor conciencia espacial alrededor del actor principal.
 
 ## Interpretacion visual rapida
 
@@ -77,6 +77,7 @@ Lectura: vista amplia para entender la posicion relativa de la aeronave respecto
 - Anillo verde: zona de margen seguro.
 - Anillo amarillo: advertencia temprana.
 - Anillo rojo: condicion critica o conflicto de alta prioridad.
+- Semi-critico: transicion entre advertencia y riesgo alto, requiere vigilancia activa.
 
 ## Stack tecnologico
 
