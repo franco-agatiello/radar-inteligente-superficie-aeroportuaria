@@ -1,0 +1,42 @@
+{
+  "SABE": {
+    "apron": {
+      "airport_code": "SABE",
+      "buffer_m": 0.0,
+      "overlay_opacity": 0.09,
+      "sector_name": "apron"
+    },
+    "runway": {
+      "airport_code": "SABE",
+      "buffer_m": 0.0,
+      "overlay_opacity": 0.22,
+      "sector_name": "runway"
+    },
+    "taxiway": {
+      "airport_code": "SABE",
+      "buffer_m": 0.0,
+      "overlay_opacity": 0.13,
+      "sector_name": "taxiway"
+    }
+  },
+  "SFO": {
+    "apron": {
+      "airport_code": "SFO",
+      "buffer_m": 0.0,
+      "overlay_opacity": 0.09,
+      "sector_name": "apron"
+    },
+    "runway": {
+      "airport_code": "SFO",
+      "buffer_m": 0.0,
+      "overlay_opacity": 0.22,
+      "sector_name": "runway"
+    },
+    "taxiway": {
+      "airport_code": "SFO",
+      "buffer_m": 0.0,
+      "overlay_opacity": 0.13,
+      "sector_name": "taxiway"
+    }
+  }
+}

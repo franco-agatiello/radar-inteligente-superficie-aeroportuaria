@@ -1,0 +1,5 @@
+PySide6>=6.7
+geopy>=2.4
+requests>=2.32
+shapely>=2.0
+networkx>=3.3
