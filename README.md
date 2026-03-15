@@ -38,7 +38,7 @@ Guarda tus imagenes en docs/images con estos nombres para mantener la galeria si
 
 ![Ruta directa con alerta](docs/images/01-ruta-directa-alerta.png)
 
-Lectura: aeronave seleccionada con halo cian y anillo rojo dominante, indicando condicion de riesgo en el entorno inmediato mientras sigue una trayectoria proyectada.
+Lectura: aeronave seleccionada con halo cian y anillo rojo dominante, indicando condicion de riesgo en el entorno inmediato mientras sigue una trayectoria proyectada la cual al encontrarse el color anaranjado indica una posible colision.
 
 ### 2) Prediccion de ramas de trayectoria
 
